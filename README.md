@@ -40,6 +40,8 @@ lib/tasks/import.rake - I defined the rake task as import in lib/tasks folder.
 
 
 TASK:
+#Main Program
+
 ####lib/tasks/import.rake
 
 require 'csv'
@@ -50,7 +52,7 @@ task :import => [:environment] do
 inputfile = "db/sample_data.csv"
 
 
-#Declaration
+##declaration
 
 rows = []
 result = ""
