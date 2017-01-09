@@ -8,7 +8,7 @@ Environment:
  
 	 Ruby - ruby 2.3.1
  
- 	Rails - Rails 5.0.1
+ 	 Rails - Rails 5.0.1
 
 Steps:
 
