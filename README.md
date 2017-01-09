@@ -66,8 +66,7 @@ TASK:
    
    		#Filtering rows with column "created_at"   between the date June 22 2014 to July 22 2014 23:59:59 hrs
 
-   		if row["created_at"].between?((Time.gm(2014,6,22,0,0,0).to_i).to_s,(Time.gm(2014,7,22,23,59,59).to_i).to_s
-	
+   		if row["created_at"].between?((Time.gm(2014,6,22,0,0,0).to_i).to_s,(Time.gm(2014,7,22,23,59,59).to_i).to_s)
 		rows << row.to_h  
   	 	end
 	 end
