@@ -43,8 +43,6 @@ db/sample_data.csv - I downloaded the data file and placed in db folder as sampl
 lib/tasks/import.rake - I defined the rake task as import in lib/tasks folder.
 
 
-TASK:
-
 #Main Program
 
 	###lib/tasks/import.rake
